@@ -1,0 +1,50 @@
+﻿@using LRSimulator.Models;
+@using LRSimulator.ViewModels;
+@using LRSimulator.Utilities;
+@using System.Linq;
+
+@model List<CardRating>
+
+
+@using (Html.BeginForm("Export", "Set"))
+{
+    <button type="submit" class="btn btn-default">Export</button>    
+
+    <ul class="list-inline card-list">
+        @for (var i = 0; i < Model.Count; i++)
+        {
+            <li>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <img src="@Model[i].Card.imageUrl" width="220" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-8">
+                        <select class="form-control" asp-for="@Model[i].Grade.Value" asp-items="Html.GetEnumSelectList<GradeEnum>()"></select>
+                        @*@Html.DropDownListFor(c => Model[i].Grade.Value, Html.GetEnumSelectList<GradeEnum>(), htmlAttributes: new { @class = "form-control" })*@
+                    </div>
+                </div>
+
+            </li>
+        }
+
+        @*@foreach (var cardRating in Model)
+        {
+            <li>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <img src="@cardRating.Card.imageUrl" width="220" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-8">
+                        <select class="form-control" asp-for="@cardRating.Grade.Value" asp-items="Html.GetEnumSelectList<GradeEnum>()"></select>
+                    </div>
+                </div>
+            
+            </li>
+        }*@
+    </ul>
+    <button type="submit" class="btn btn-default">Export</button>
+}

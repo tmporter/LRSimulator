@@ -1,0 +1,989 @@
+﻿.setsprite {
+    background: url(/images/setsprites.png) no-repeat;
+    display: inline;
+    float: left;
+}
+
+.setsprite-center {
+    background: url(/images/setsprites.png) no-repeat;
+    display: inline-block;
+    float: center;
+}
+
+.setsprite-10e {
+    width: 21px;
+    height: 21px;
+    background-position: 0 0;
+}
+
+.setsprite-1e {
+    width: 21px;
+    height: 21px;
+    background-position: -21px 0;
+}
+
+.setsprite-2e {
+    width: 21px;
+    height: 21px;
+    background-position: -42px 0;
+}
+
+.setsprite-2u {
+    width: 21px;
+    height: 21px;
+    background-position: -63px 0;
+}
+
+.setsprite-3e {
+    width: 21px;
+    height: 21px;
+    background-position: -84px 0;
+}
+
+.setsprite-4e {
+    width: 21px;
+    height: 21px;
+    background-position: -105px 0;
+}
+
+.setsprite-5dn {
+    width: 21px;
+    height: 21px;
+    background-position: -126px 0;
+}
+
+.setsprite-5e {
+    width: 21px;
+    height: 21px;
+    background-position: -147px 0;
+}
+
+.setsprite-6e {
+    width: 21px;
+    height: 21px;
+    background-position: -168px 0;
+}
+
+.setsprite-7e {
+    width: 21px;
+    height: 21px;
+    background-position: -189px 0;
+}
+
+.setsprite-8ed {
+    width: 21px;
+    height: 21px;
+    background-position: -210px 0;
+}
+
+.setsprite-9ed {
+    width: 21px;
+    height: 21px;
+    background-position: -231px 0;
+}
+
+.setsprite-aer {
+    width: 21px;
+    height: 21px;
+    background-position: -126px -252px;
+}
+
+.setsprite-al {
+    width: 21px;
+    height: 21px;
+    background-position: 0 -21px;
+}
+
+.setsprite-ala {
+    width: 21px;
+    height: 21px;
+    background-position: -21px -21px;
+}
+
+.setsprite-an {
+    width: 21px;
+    height: 21px;
+    background-position: -42px -21px;
+}
+
+.setsprite-ap {
+    width: 21px;
+    height: 21px;
+    background-position: -63px -21px;
+}
+
+.setsprite-apac {
+    width: 21px;
+    height: 21px;
+    background-position: -84px -21px;
+}
+
+.setsprite-aq {
+    width: 21px;
+    height: 21px;
+    background-position: -105px -21px;
+}
+
+.setsprite-arb {
+    width: 21px;
+    height: 21px;
+    background-position: -126px -21px;
+}
+
+.setsprite-arc {
+    width: 21px;
+    height: 21px;
+    background-position: -147px -21px;
+}
+
+.setsprite-avr {
+    width: 21px;
+    height: 21px;
+    background-position: -168px -21px;
+}
+
+.setsprite-bd {
+    width: 21px;
+    height: 21px;
+    background-position: -189px -21px;
+}
+
+.setsprite-bfz {
+    width: 21px;
+    height: 21px;
+    background-position: -210px -21px;
+}
+
+.setsprite-bng {
+    width: 21px;
+    height: 21px;
+    background-position: -231px -21px;
+}
+
+.setsprite-bok {
+    width: 21px;
+    height: 21px;
+    background-position: 0 -42px;
+}
+
+.setsprite-br {
+    width: 21px;
+    height: 21px;
+    background-position: -21px -42px;
+}
+
+.setsprite-c13 {
+    width: 21px;
+    height: 21px;
+    background-position: -42px -42px;
+}
+
+.setsprite-c14 {
+    width: 21px;
+    height: 21px;
+    background-position: -63px -42px;
+}
+
+.setsprite-c15 {
+    width: 21px;
+    height: 21px;
+    background-position: -84px -42px;
+}
+
+.setsprite-c16 {
+    width: 21px;
+    height: 21px;
+    background-position: -84px -252px;
+}
+
+.setsprite-cg {
+    width: 21px;
+    height: 21px;
+    background-position: -105px -42px;
+}
+
+.setsprite-ch {
+    width: 21px;
+    height: 21px;
+    background-position: -126px -42px;
+}
+
+.setsprite-chk {
+    width: 21px;
+    height: 21px;
+    background-position: -147px -42px;
+}
+
+.setsprite-cm1 {
+    width: 21px;
+    height: 21px;
+    background-position: -168px -42px;
+}
+
+.setsprite-cmd {
+    width: 21px;
+    height: 21px;
+    background-position: -189px -42px;
+}
+
+.setsprite-cns {
+    width: 21px;
+    height: 21px;
+    background-position: -210px -42px;
+}
+
+.setsprite-cn2 {
+    width: 21px;
+    height: 21px;
+    background-position: -42px -252px;
+}
+
+.setsprite-con1 {
+    width: 21px;
+    height: 21px;
+    background-position: -231px -42px;
+}
+
+.setsprite-csp {
+    width: 21px;
+    height: 21px;
+    background-position: 0 -63px;
+}
+
+.setsprite-dci {
+    width: 21px;
+    height: 21px;
+    background-position: -21px -63px;
+}
+
+.setsprite-dd2 {
+    width: 21px;
+    height: 21px;
+    background-position: -42px -63px;
+}
+
+.setsprite-ddc {
+    width: 21px;
+    height: 21px;
+    background-position: -63px -63px;
+}
+
+.setsprite-ddd {
+    width: 21px;
+    height: 21px;
+    background-position: -84px -63px;
+}
+
+.setsprite-dde {
+    width: 21px;
+    height: 21px;
+    background-position: -105px -63px;
+}
+
+.setsprite-ddf {
+    width: 21px;
+    height: 21px;
+    background-position: -126px -63px;
+}
+
+.setsprite-ddg {
+    width: 21px;
+    height: 21px;
+    background-position: -147px -63px;
+}
+
+.setsprite-ddh {
+    width: 21px;
+    height: 21px;
+    background-position: -168px -63px;
+}
+
+.setsprite-ddi {
+    width: 21px;
+    height: 21px;
+    background-position: -189px -63px;
+}
+
+.setsprite-ddj {
+    width: 21px;
+    height: 21px;
+    background-position: -210px -63px;
+}
+
+.setsprite-ddk {
+    width: 21px;
+    height: 21px;
+    background-position: -231px -63px;
+}
+
+.setsprite-ddl {
+    width: 21px;
+    height: 21px;
+    background-position: 0 -84px;
+}
+
+.setsprite-ddm {
+    width: 21px;
+    height: 21px;
+    background-position: -21px -84px;
+}
+
+.setsprite-ddn {
+    width: 21px;
+    height: 21px;
+    background-position: -42px -84px;
+}
+
+.setsprite-ddo {
+    width: 21px;
+    height: 21px;
+    background-position: -63px -84px;
+}
+
+.setsprite-ddp {
+    width: 21px;
+    height: 21px;
+    background-position: -84px -84px;
+}
+
+.setsprite-ddq {
+    width: 21px;
+    height: 21px;
+    background-position: -105px -84px;
+}
+
+.setsprite-ddr {
+    width: 21px;
+    height: 21px;
+    background-position: -126px -84px;
+}
+
+.setsprite-dgm {
+    width: 21px;
+    height: 21px;
+    background-position: -147px -84px;
+}
+
+.setsprite-dis {
+    width: 21px;
+    height: 21px;
+    background-position: -168px -84px;
+}
+
+.setsprite-dk {
+    width: 21px;
+    height: 21px;
+    background-position: -189px -84px;
+}
+
+.setsprite-dka {
+    width: 21px;
+    height: 21px;
+    background-position: -210px -84px;
+}
+
+.setsprite-drb {
+    width: 21px;
+    height: 21px;
+    background-position: -231px -84px;
+}
+
+.setsprite-dst {
+    width: 21px;
+    height: 21px;
+    background-position: 0 -105px;
+}
+
+.setsprite-dtk {
+    width: 21px;
+    height: 21px;
+    background-position: -21px -105px;
+}
+
+.setsprite-ema {
+    width: 21px;
+    height: 21px;
+    background-position: -42px -105px;
+}
+
+.setsprite-emn {
+    width: 21px;
+    height: 21px;
+    background-position: -63px -105px;
+}
+
+.setsprite-eve {
+    width: 21px;
+    height: 21px;
+    background-position: -84px -105px;
+}
+
+.setsprite-evg {
+    width: 21px;
+    height: 21px;
+    background-position: -105px -105px;
+}
+
+.setsprite-ex {
+    width: 21px;
+    height: 21px;
+    background-position: -126px -105px;
+}
+
+.setsprite-exp {
+    width: 21px;
+    height: 21px;
+    background-position: -147px -105px;
+}
+
+.setsprite-expicons_137 {
+    width: 21px;
+    height: 21px;
+    background-position: -168px -105px;
+}
+
+.setsprite-expicons_148 {
+    width: 21px;
+    height: 21px;
+    background-position: -189px -105px;
+}
+
+.setsprite-expicons_168 {
+    width: 21px;
+    height: 21px;
+    background-position: -210px -105px;
+}
+
+.setsprite-expicons_194 {
+    width: 21px;
+    height: 21px;
+    background-position: -231px -105px;
+}
+
+.setsprite-expicons_91 {
+    width: 21px;
+    height: 21px;
+    background-position: 0 -126px;
+}
+
+.setsprite-fe {
+    width: 21px;
+    height: 21px;
+    background-position: -21px -126px;
+}
+
+.setsprite-fnm {
+    width: 21px;
+    height: 21px;
+    background-position: -42px -126px;
+}
+
+.setsprite-frf {
+    width: 21px;
+    height: 21px;
+    background-position: -63px -126px;
+}
+
+.setsprite-fut {
+    width: 21px;
+    height: 21px;
+    background-position: -84px -126px;
+}
+
+.setsprite-gpt {
+    width: 21px;
+    height: 21px;
+    background-position: -105px -126px;
+}
+
+.setsprite-gtc {
+    width: 21px;
+    height: 21px;
+    background-position: -126px -126px;
+}
+
+.setsprite-gu {
+    width: 21px;
+    height: 21px;
+    background-position: -147px -126px;
+}
+
+.setsprite-guru {
+    width: 21px;
+    height: 21px;
+    background-position: -168px -126px;
+}
+
+.setsprite-h09 {
+    width: 21px;
+    height: 21px;
+    background-position: -189px -126px;
+}
+
+.setsprite-hm {
+    width: 21px;
+    height: 21px;
+    background-position: -210px -126px;
+}
+
+.setsprite-hop {
+    width: 21px;
+    height: 21px;
+    background-position: -231px -126px;
+}
+
+.setsprite-ia {
+    width: 21px;
+    height: 21px;
+    background-position: 0 -147px;
+}
+
+.setsprite-in {
+    width: 21px;
+    height: 21px;
+    background-position: -21px -147px;
+}
+
+.setsprite-isd {
+    width: 21px;
+    height: 21px;
+    background-position: -42px -147px;
+}
+
+.setsprite-jou {
+    width: 21px;
+    height: 21px;
+    background-position: -63px -147px;
+}
+
+.setsprite-jr {
+    width: 21px;
+    height: 21px;
+    background-position: -84px -147px;
+}
+
+.setsprite-jud {
+    width: 21px;
+    height: 21px;
+    background-position: -105px -147px;
+}
+
+.setsprite-kld {
+    width: 21px;
+    height: 21px;
+    background-position: -63px -252px;
+}
+
+.setsprite-ktk {
+    width: 21px;
+    height: 21px;
+    background-position: -126px -147px;
+}
+
+.setsprite-le {
+    width: 21px;
+    height: 21px;
+    background-position: -147px -147px;
+}
+
+.setsprite-lgn {
+    width: 21px;
+    height: 21px;
+    background-position: -168px -147px;
+}
+
+.setsprite-lrw {
+    width: 21px;
+    height: 21px;
+    background-position: -189px -147px;
+}
+
+.setsprite-m10 {
+    width: 21px;
+    height: 21px;
+    background-position: -210px -147px;
+}
+
+.setsprite-m11 {
+    width: 21px;
+    height: 21px;
+    background-position: -231px -147px;
+}
+
+.setsprite-m12 {
+    width: 21px;
+    height: 21px;
+    background-position: 0 -168px;
+}
+
+.setsprite-m13 {
+    width: 21px;
+    height: 21px;
+    background-position: -21px -168px;
+}
+
+.setsprite-m14 {
+    width: 21px;
+    height: 21px;
+    background-position: -42px -168px;
+}
+
+.setsprite-m15 {
+    width: 21px;
+    height: 21px;
+    background-position: -63px -168px;
+}
+
+.setsprite-mbs {
+    width: 21px;
+    height: 21px;
+    background-position: -84px -168px;
+}
+
+.setsprite-md1 {
+    width: 21px;
+    height: 21px;
+    background-position: -105px -168px;
+}
+
+.setsprite-mi {
+    width: 21px;
+    height: 21px;
+    background-position: -126px -168px;
+}
+
+.setsprite-mm {
+    width: 21px;
+    height: 21px;
+    background-position: -147px -168px;
+}
+
+.setsprite-mm2 {
+    width: 21px;
+    height: 21px;
+    background-position: -168px -168px;
+}
+
+.setsprite-mma {
+    width: 21px;
+    height: 21px;
+    background-position: -189px -168px;
+}
+
+.setsprite-mor {
+    width: 21px;
+    height: 21px;
+    background-position: -210px -168px;
+}
+
+.setsprite-mrd {
+    width: 21px;
+    height: 21px;
+    background-position: -231px -168px;
+}
+
+.setsprite-ne {
+    width: 21px;
+    height: 21px;
+    background-position: 0 -189px;
+}
+
+.setsprite-nph {
+    width: 21px;
+    height: 21px;
+    background-position: -21px -189px;
+}
+
+.setsprite-od {
+    width: 21px;
+    height: 21px;
+    background-position: -42px -189px;
+}
+
+.setsprite-ogw {
+    width: 21px;
+    height: 21px;
+    background-position: -63px -189px;
+}
+
+.setsprite-ons {
+    width: 21px;
+    height: 21px;
+    background-position: -84px -189px;
+}
+
+.setsprite-ori {
+    width: 21px;
+    height: 21px;
+    background-position: -105px -189px;
+}
+
+.setsprite-p2 {
+    width: 21px;
+    height: 21px;
+    background-position: -126px -189px;
+}
+
+.setsprite-p3 {
+    width: 21px;
+    height: 21px;
+    background-position: -147px -189px;
+}
+
+.setsprite-p4 {
+    width: 21px;
+    height: 21px;
+    background-position: -168px -189px;
+}
+
+.setsprite-pc2 {
+    width: 21px;
+    height: 21px;
+    background-position: -189px -189px;
+}
+
+.setsprite-pca {
+    width: 21px;
+    height: 21px;
+    background-position: -105px -252px;
+}
+
+.setsprite-pd2 {
+    width: 21px;
+    height: 21px;
+    background-position: -210px -189px;
+}
+
+.setsprite-pd3 {
+    width: 21px;
+    height: 21px;
+    background-position: -231px -189px;
+}
+
+.setsprite-pk {
+    width: 21px;
+    height: 21px;
+    background-position: 0 -210px;
+}
+
+.setsprite-plc {
+    width: 21px;
+    height: 21px;
+    background-position: -21px -210px;
+}
+
+.setsprite-po {
+    width: 21px;
+    height: 21px;
+    background-position: -42px -210px;
+}
+
+.setsprite-pr {
+    width: 21px;
+    height: 21px;
+    background-position: -63px -210px;
+}
+
+.setsprite-pre {
+    width: 21px;
+    height: 21px;
+    background-position: -84px -210px;
+}
+
+.setsprite-promo {
+    width: 21px;
+    height: 21px;
+    background-position: -105px -210px;
+}
+
+.setsprite-ps {
+    width: 21px;
+    height: 21px;
+    background-position: -126px -210px;
+}
+
+.setsprite-rav {
+    width: 21px;
+    height: 21px;
+    background-position: -147px -210px;
+}
+
+.setsprite-roe {
+    width: 21px;
+    height: 21px;
+    background-position: -168px -210px;
+}
+
+.setsprite-rtr {
+    width: 21px;
+    height: 21px;
+    background-position: -189px -210px;
+}
+
+.setsprite-scg {
+    width: 21px;
+    height: 21px;
+    background-position: -210px -210px;
+}
+
+.setsprite-shm {
+    width: 21px;
+    height: 21px;
+    background-position: -231px -210px;
+}
+
+.setsprite-soi {
+    width: 21px;
+    height: 21px;
+    background-position: 0 -231px;
+}
+
+.setsprite-sok {
+    width: 21px;
+    height: 21px;
+    background-position: -21px -231px;
+}
+
+.setsprite-som {
+    width: 21px;
+    height: 21px;
+    background-position: -42px -231px;
+}
+
+.setsprite-special {
+    width: 21px;
+    height: 21px;
+    background-position: -63px -231px;
+}
+
+.setsprite-st {
+    width: 21px;
+    height: 21px;
+    background-position: -84px -231px;
+}
+
+.setsprite-te {
+    width: 21px;
+    height: 21px;
+    background-position: -105px -231px;
+}
+
+.setsprite-ths {
+    width: 21px;
+    height: 21px;
+    background-position: -126px -231px;
+}
+
+.setsprite-tor {
+    width: 21px;
+    height: 21px;
+    background-position: -147px -231px;
+}
+
+.setsprite-tsb {
+    width: 21px;
+    height: 21px;
+    background-position: -168px -231px;
+}
+
+.setsprite-tsp {
+    width: 21px;
+    height: 21px;
+    background-position: -189px -231px;
+}
+
+.setsprite-ug {
+    width: 21px;
+    height: 21px;
+    background-position: -210px -231px;
+}
+
+.setsprite-unh {
+    width: 21px;
+    height: 21px;
+    background-position: -231px -231px;
+}
+
+.setsprite-uz {
+    width: 21px;
+    height: 21px;
+    background-position: -252px 0;
+}
+
+.setsprite-v09 {
+    width: 21px;
+    height: 21px;
+    background-position: -252px -21px;
+}
+
+.setsprite-v10 {
+    width: 21px;
+    height: 21px;
+    background-position: -252px -42px;
+}
+
+.setsprite-v11 {
+    width: 21px;
+    height: 21px;
+    background-position: -252px -63px;
+}
+
+.setsprite-v12 {
+    width: 21px;
+    height: 21px;
+    background-position: -252px -84px;
+}
+
+.setsprite-v13 {
+    width: 21px;
+    height: 21px;
+    background-position: -252px -105px;
+}
+
+.setsprite-v14 {
+    width: 21px;
+    height: 21px;
+    background-position: -252px -126px;
+}
+
+.setsprite-v15 {
+    width: 21px;
+    height: 21px;
+    background-position: -252px -147px;
+}
+
+.setsprite-v16 {
+    width: 21px;
+    height: 21px;
+    background-position: -252px -168px;
+}
+
+.setsprite-van {
+    width: 21px;
+    height: 21px;
+    background-position: -252px -189px;
+}
+
+.setsprite-vi {
+    width: 21px;
+    height: 21px;
+    background-position: -252px -210px;
+}
+
+.setsprite-wl {
+    width: 21px;
+    height: 21px;
+    background-position: -252px -231px;
+}
+
+.setsprite-wwk {
+    width: 21px;
+    height: 21px;
+    background-position: 0 -252px;
+}
+
+.setsprite-zen {
+    width: 21px;
+    height: 21px;
+    background-position: -21px -252px;
+}

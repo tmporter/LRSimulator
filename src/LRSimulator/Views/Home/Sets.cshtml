@@ -1,0 +1,17 @@
+﻿@model List<LRSimulator.Models.Set>
+
+<ul class="list-inline set-list">
+    @foreach (var set in Model)
+    {
+        <li>
+            <a class="btn btn-default ribbon-wrapper" href="@Url.Action("Index", "Set", new { id = set.code })">
+                @if (set.LRReviewID != null)
+                {
+                    <div class="ribbon-wrapper-red"><div class="ribbon-red">LR</div></div>
+                }
+                <span class="ss ss-fw ss-5x ss-@set.code.ToLower()"></span>
+                <h4>@set.name</h4>
+            </a>
+        </li>
+    }
+</ul>

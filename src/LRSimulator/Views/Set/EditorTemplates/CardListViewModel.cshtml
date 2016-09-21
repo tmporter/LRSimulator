@@ -1,0 +1,24 @@
+﻿@using LRSimulator.ViewModels;
+@using LRSimulator.Models;
+
+@model CardListViewModel
+
+<ul class="list-inline card-list">
+    @for (var i = 0; i < Model.CardViewModels.Count; i++)
+    {
+        <li>
+            <div class="row">
+                <div class="col-xs-12">
+                    <img src="@Model.CardViewModels[i].Card.imageUrl" width="220" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-8">
+                    <select class="form-control" asp-for="@Model.CardViewModels[i].Grade.Value" asp-items="Html.GetEnumSelectList<GradeEnum>()"></select>
+                </div>
+            </div>
+
+        </li>
+    }
+</ul>
+

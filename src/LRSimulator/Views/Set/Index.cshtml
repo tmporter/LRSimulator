@@ -1,0 +1,115 @@
+﻿@using LRSimulator.Models;
+@model LRSimulator.ViewModels.SetViewModel
+
+@{
+    ViewData["Title"] = Model.Set.name;
+}
+
+@section scripts {
+    <script type="text/javascript">
+        $(function(){
+
+            $('#sidebar-filter').on('submit', function (e) {
+                e.preventDefault();
+
+                var form = $(this);
+                var cardsContainer = $('#cards-container');
+
+                $.ajax({
+                    type: form.attr('method'),
+                    url: form.attr('action'),
+                    data: form.serialize(),
+                    success: function (data) {
+                        cardsContainer.html(data);
+                    }
+                });
+
+            });
+
+        });
+    </script>
+}
+
+<h1><span class="ss ss-@Model.Set.code.ToLower()" style="margin-right: 10px;"></span>@ViewData["Title"]</h1>
+
+<hr />
+
+<div class="row">
+    <div class="col-xs-2">
+        <form asp-controller="Set" asp-action="Index" 
+            data-ajax="true" 
+            data-ajax-method="POST" 
+            data-ajax-mode="replace"
+            data-ajax-update="#cards-container">
+
+            <h4>Filter by Color</h4>
+
+            @foreach (var color in Model.ColorFilter)
+            {
+                <div class="checkbox">
+                    <label>
+                        @Html.CheckBoxFor(model => model.ColorFilter[color.Key])
+                        @color.Key
+                    </label>
+                </div>
+            }
+
+            <h4>Filter by Rarity</h4>
+
+            @foreach (var rarity in Model.RarityFilter)
+            {
+                <div class="checkbox">
+                    <label>
+                        @Html.CheckBoxFor(model => model.RarityFilter[rarity.Key])
+                        @rarity.Key
+                    </label>
+                </div>
+            }
+
+            @Html.HiddenFor(model => model.Set.code)
+
+            <button type="submit" class="btn btn-default">Apply</button>
+        </form>
+
+        @*@using (Html.BeginForm("Index", "Set", method: FormMethod.Post, htmlAttributes: new { @id = "sidebar-filter" }))
+        {
+            <h4>Filter by Color</h4>
+
+            foreach (var color in Model.ColorFilter)
+            {
+                <div class="checkbox">
+                    <label>
+                        @Html.CheckBoxFor(model => model.ColorFilter[color.Key])
+                        @color.Key
+                    </label>
+                </div>
+            }
+
+            <h4>Filter by Rarity</h4>
+
+            foreach (var rarity in Model.RarityFilter)
+            {
+                <div class="checkbox">
+                    <label>
+                        @Html.CheckBoxFor(model => model.RarityFilter[rarity.Key])
+                        @rarity.Key
+                    </label>
+                </div>
+            }
+
+            @Html.HiddenFor(model => model.Set.code)
+
+            <button type="submit" class="btn btn-default">Apply</button>
+        }*@
+    </div>
+    <div class="col-xs-10" id="cards-container">
+        @*@await Html.PartialAsync("Cards", Model.UserGrades)*@
+        @using (Html.BeginForm("Export", "Set"))
+        {
+            <button type="submit" class="btn btn-default">Export</button>
+            @Html.EditorFor(model => model.UserGrades)
+            <button type="submit" class="btn btn-default">Export</button>
+        }
+    </div>
+</div>
+
